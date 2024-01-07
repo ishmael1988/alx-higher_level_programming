@@ -1,3 +1,5 @@
-for i in range(99):
-    print("{:d} {:02X}".format(i, i), end=" ")
+#!/usr/bin/python3
+for num in range(0, 99):
+    print('{} = 0x{:x}'.format(num, num))
+
 
